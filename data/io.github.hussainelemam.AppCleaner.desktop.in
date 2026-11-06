@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=App Cleaner
+GenericName=App Remover
+Comment=See every installed app, where it came from, and remove it
+Exec=@EXEC@
+Icon=io.github.hussainelemam.AppCleaner
+Terminal=false
+Categories=System;Settings;PackageManager;GTK;
+Keywords=uninstall;remove;delete;flatpak;snap;appimage;rpm;dnf;cleanup;
+StartupNotify=true

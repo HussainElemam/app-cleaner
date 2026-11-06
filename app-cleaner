@@ -1,0 +1,5 @@
+#!/bin/sh
+# Start App Cleaner from this project folder. Uses the system Python, which
+# has the GTK 4 / libadwaita bindings.
+here="$(dirname "$(readlink -f "$0")")"
+PYTHONPATH="$here${PYTHONPATH:+:$PYTHONPATH}" exec /usr/bin/python3 -m app_cleaner "$@"
